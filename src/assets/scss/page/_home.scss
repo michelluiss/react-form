@@ -1,0 +1,15 @@
+.page-home {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .content-page-home {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: gr(40);
+    strong {
+      font-weight: 800;
+    }
+  }
+}
