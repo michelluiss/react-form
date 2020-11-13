@@ -27,36 +27,9 @@
         width: gr(290);
         margin-top: gr(170);
       }
-      h1 {
-        color: #fff;
-        text-transform: uppercase;
-        font-weight: 500;
-        font-size: gr(35);
-        strong {
-          font-weight: 900;
-        }
-      }
       .content-text {
-        color: #fff;
-        margin: gr(20) 0;
         p {
           max-width: gr(300);
-          line-height: 1.5;
-          font-weight: 300;
-          &::before {
-            content: '';
-            border: 1px solid #fff;
-            display: block;
-            width: gr(50);
-            margin-bottom: gr(40);
-          }
-          &::after {
-            content: '';
-            border: 1px solid #fff;
-            display: block;
-            width: gr(50);
-            margin-top: gr(40);
-          }
         }
       }
       .content-info {

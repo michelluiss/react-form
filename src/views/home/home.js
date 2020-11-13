@@ -6,7 +6,7 @@ const Home = () => (
   <section className="page-home">
     <img src={bgSquare} alt="imagem de background" />
     <div className="container">
-      <div className="content-page-home">
+      <div className="content-page-home content-page">
         <p>we are <strong>square</strong></p>
         <p>and we are <strong>coming soon</strong></p>
       </div>

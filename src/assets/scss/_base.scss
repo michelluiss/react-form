@@ -1,0 +1,34 @@
+.content-page {
+  h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: gr(35);
+    strong {
+      font-weight: 900;
+    }
+  }
+  .content-text {
+    color: #fff;
+    margin: gr(20) 0;
+    p {
+      line-height: 1.5;
+      font-weight: 300;
+      margin-bottom: 10px;
+      &.border::before {
+        content: '';
+        border: 1px solid #fff;
+        display: block;
+        width: gr(50);
+        margin-bottom: gr(40);
+      }
+      &.border::after {
+        content: '';
+        border: 1px solid #fff;
+        display: block;
+        width: gr(50);
+        margin-top: gr(40);
+      }
+    }
+  }
+}

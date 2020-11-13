@@ -13,7 +13,7 @@ const Contact = () => (
         <div className="west-side">
           <h1>Contact <strong>Us</strong></h1>
           <div className="content-text">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p className="border">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
           </div>
           <div className="content-info">
             <p><strong>Adress:</strong>123 Palo Alto, Palo Alto, CA 94300</p>
