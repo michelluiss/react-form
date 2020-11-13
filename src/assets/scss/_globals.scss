@@ -70,7 +70,8 @@ html,body {
 }
 
 .container {
-  max-width: gr(1280);
+  max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
   padding: gr(0) gr(15);
 }

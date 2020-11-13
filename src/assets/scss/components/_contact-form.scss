@@ -1,0 +1,36 @@
+.form-contact-page {
+  background: #fff;
+  padding: gr(50) gr(65);
+  width: 90%;
+  margin-left: gr(-150);
+  .field {
+    margin-bottom: gr(30);
+    input, textarea {
+      border: 0;
+      border-bottom: 2px solid #ea3d3d;
+      width: 100%;
+      line-height: 2;
+      text-indent: 5px;
+      @include input-placeholder {
+        color: #919191;
+        font-weight: 600;
+        font-size: gr(16);
+      }
+    }
+  }
+  .button-submit {
+    padding: gr(10) gr(20);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: none;
+    border: 2px solid #ea3d3d;
+    color: #ea3d3d;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all linear 0.3s;
+    &:hover {
+      background: #ea3d3d;
+      color: #fff;
+    }
+  }
+}
