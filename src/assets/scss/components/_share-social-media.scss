@@ -1,11 +1,11 @@
 .content-icons {
   display: flex;
   .box-icon {
-    margin-right: 20px;
+    margin-right: gr(20);
   }
   .bg-icons {
-    width: 30px;
-    height: 30px;
+    width: gr(30);
+    height: gr(30);
     display: flex;
     align-items: center;
     justify-content: center;

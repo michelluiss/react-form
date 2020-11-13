@@ -15,17 +15,17 @@
   .count-timer {
     display: flex;
     justify-content: space-between;
-    margin-top: 150px;
+    margin-top: gr(150);
     display: flex;
     .time-wrapper {
       text-align: center;
-      font-size: 14px;
+      font-size: gr(14);
       text-transform: uppercase;
       font-weight: 700;
       .time {
-        font-size: 28px;
+        font-size: gr(28);
         font-weight: 200;
-        margin-bottom: 10px;
+        margin-bottom: gr(10);
       }
     }
   }

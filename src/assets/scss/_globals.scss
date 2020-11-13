@@ -43,16 +43,16 @@ html,body {
     font-size: 15px;
   }
   @media (max-width: 768px) {
-    font-size: 15px;
-  }
-  @media (max-width: 575.98px) {
     font-size: 14.5px;
   }
+  @media (max-width: 575.98px) {
+    font-size: 13.5px;
+  }
   @media (max-width: 375px) {
-    font-size: 14px;
+    font-size: 13px;
   }
   @media (max-width: 320px) {
-    font-size: 13px;
+    font-size: 12px;
   }
   h1,h2,h3,h4,h5,h6 {
     margin: 0;
@@ -71,7 +71,7 @@ html,body {
 
 .container {
   max-width: 1280px;
-  width: 100%;
+  // width: 100%;
   margin: 0 auto;
   padding: gr(0) gr(15);
 }
