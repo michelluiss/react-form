@@ -53,15 +53,18 @@
   .count-timer {
     display: flex;
     justify-content: space-between;
-    margin-top: gr(150);
     display: flex;
+    color: #fff;
+    position: absolute;
+    bottom: -100px;
     .time-wrapper {
       text-align: center;
-      font-size: gr(14);
+      font-size: gr(16);
       text-transform: uppercase;
-      font-weight: 700;
+      font-weight: 900;
+      margin-right: gr(60);
       .time {
-        font-size: gr(28);
+        font-size: gr(34);
         font-weight: 200;
         margin-bottom: gr(10);
       }
