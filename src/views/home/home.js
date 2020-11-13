@@ -11,7 +11,7 @@ const Home = () => (
           <p>we are <strong>square</strong></p>
           <p>and we are <strong>coming soon</strong></p>
         </div>
-        <Countdown date={Date.now() + 900000} renderer={renderer} />
+        <Countdown date={new Date('03/14/2021')} renderer={renderer} />
       </div>
     </div>
   </section>
