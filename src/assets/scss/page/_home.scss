@@ -3,11 +3,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  img {
+    position: absolute;
+    top: 140px;
+    right: 240px;
+  }
   .content-page-home {
     color: #fff;
     text-transform: uppercase;
     text-align: center;
-    font-size: gr(40);
+    font-size: gr(50);
     strong {
       font-weight: 800;
     }
