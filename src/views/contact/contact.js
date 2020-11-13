@@ -1,5 +1,6 @@
 import React from 'react'
 import ShareSocialMedia from '../../components/shared/ShareSocialMedia'
+import ContactUsForm from '../../components/contact/ContactUsForm'
 
 const Contact = () => (
   <section className="page-contact">
@@ -18,6 +19,7 @@ const Contact = () => (
       </div>
     </div>
     <div className="east-side">
+      <ContactUsForm></ContactUsForm>
     </div>
   </section>
 )
