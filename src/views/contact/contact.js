@@ -1,8 +1,5 @@
 import React from 'react'
-import { GrFacebook } from "react-icons/gr";
-import { GrGooglePlus } from "react-icons/gr";
-import { GrLinkedin } from "react-icons/gr";
-import { FaTwitter } from "react-icons/fa";
+import ShareSocialMedia from '../../components/shared/ShareSocialMedia'
 
 const Contact = () => (
   <section className="page-contact">
@@ -17,25 +14,10 @@ const Contact = () => (
           <p><strong>Phone:</strong>+1 234-567-8910</p>
           <p><strong>E-mail:</strong>contact@yourdomain.net</p>
         </div>
-        <div className="content-icons">
-          <div className="box-icon">
-            <GrFacebook color='#fff' size='30'></GrFacebook>
-          </div>
-          <div className="box-icon bg-icons">
-            <GrGooglePlus color='#ea3d3d' size='20'></GrGooglePlus>
-          </div>
-          <div className="box-icon">
-            <GrLinkedin color='#fff' size='30'></GrLinkedin>
-          </div>
-          <div className="box-icon bg-icons">
-            <FaTwitter color='#ea3d3d' size='20'></FaTwitter>
-          </div>
-        </div>
+        <ShareSocialMedia/>
       </div>
     </div>
     <div className="east-side">
-      <div className="container">
-      </div>
     </div>
   </section>
 )
