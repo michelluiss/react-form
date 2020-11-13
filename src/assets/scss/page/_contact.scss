@@ -1,0 +1,70 @@
+.page-contact {
+  display: flex;
+  height: 100%;
+  .west-side {
+    width: 50%;
+    h1 {
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 35px;
+      margin-top: 50px;
+      strong {
+        font-weight: 900;
+      }
+    }
+    .content-text {
+      color: #fff;
+      margin: 20px 0;
+      p {
+        max-width: 300px;
+        line-height: 1.5;
+        font-weight: 300;
+        &::before {
+          content: '';
+          border: 1px solid #fff;
+          display: block;
+          width: 50px;
+          margin-bottom: 40px;
+        }
+        &::after {
+          content: '';
+          border: 1px solid #fff;
+          display: block;
+          width: 50px;
+          margin-top: 40px;
+        }
+      }
+    }
+    .content-info {
+      color: #fff;
+      margin: 40px 0;
+      p {
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 15px;
+        strong {
+          font-weight: 600;
+        }
+      }
+    }
+    .content-icons {
+      display: flex;
+      .box-icon {
+        margin-right: 20px;
+      }
+      .bg-icons {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #fff;
+      }
+    }
+  }
+  .east-side {
+    background: #36383b;
+    width: 50%;
+  }
+}

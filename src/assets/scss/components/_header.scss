@@ -1,6 +1,8 @@
 .header-app {
   display: flex;
   justify-content: space-between;
+  position: absolute;
+  width: 100%;
   ul {
     margin: 0;
     display: flex;

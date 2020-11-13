@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const Header = () => (
-  <div className="container">
+  <div>
     <header className="header-app">
       <div className="logo">
       </div>
